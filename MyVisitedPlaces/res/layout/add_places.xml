@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="15dp"
+    android:background="@drawable/new1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/db_check_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:textSize="20sp"
+                android:textColor="#FF1164"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/addName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                  android:textSize="20sp"
+                android:inputType="text"
+                 />
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                  android:textSize="20sp"
+                  android:textColor="#FF1164"
+                android:text="@string/purpose" />
+
+            <EditText
+                android:id="@+id/addPurpose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                  android:textSize="20sp"
+                android:inputType="text"
+                 />
+        </LinearLayout>
+        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                  android:textSize="20sp"
+                  android:textColor="#FF1164"
+                android:text="@string/address" />
+
+            <EditText
+                android:id="@+id/addAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textSize="20sp"
+                android:inputType="textMultiLine"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                  android:textSize="20sp"
+                  android:textColor="#FF1164"
+                android:text="@string/latitude" />
+
+            <EditText
+                android:id="@+id/addLatitude"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:textSize="20sp"
+                android:ems="10"
+                
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                  android:textSize="20sp"
+                  android:textColor="#FF1164"
+                android:text="@string/longitude" />
+
+            <EditText
+                android:id="@+id/addLongitude"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"      
+                android:textSize="20sp"         
+                android:inputType="numberDecimal"/>
+                
+                 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                  android:textSize="20sp"
+                  android:textColor="#FF1164"
+                android:text="@string/closeDay" />
+
+            <EditText
+                android:id="@+id/addStartDay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textSize="20sp"
+                android:inputType="datetime"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                  android:textSize="20sp"
+                  android:textColor="#FF1164"
+                android:text="@string/openTime" />
+
+            <EditText
+                android:id="@+id/addEndDay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                  android:textSize="20sp"
+                android:inputType="datetime"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:textColor="#FF1164"
+                  android:textSize="20sp"
+                android:text="@string/description" />
+
+            <EditText
+                android:id="@+id/addNotes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                  android:textSize="20sp"
+                android:inputType="textMultiLine"/>
+        </LinearLayout>
+
+       
+
+            
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF" 
+                    android:background="@drawable/buttonshape1" 
+                    android:text="@string/btnImage" />
+            </LinearLayout>
+            
+             <LinearLayout
+               android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="#4EFF3B"
+                    android:textSize="20sp" 
+                    android:background="@drawable/buttonshape" 
+                    android:text="@string/btnSave" />
+            </LinearLayout>
+       
+    </LinearLayout>
+
+</ScrollView>
