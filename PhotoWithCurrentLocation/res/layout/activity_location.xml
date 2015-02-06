@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="15dp"
+    android:background="#000000">
+    
+    
+     <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+           <ImageView
+                android:id="@+id/ivPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_launcher" />
+           </LinearLayout> -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:textSize="20sp"
+                android:textColor="#FF1164"
+                android:text="Latitude" />
+
+            <EditText
+                android:id="@+id/addLatitude"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:inputType="number"
+                 />
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:textSize="20sp"
+                android:textColor="#FF1164"
+                android:text="Longitude" />
+
+            <EditText
+                android:id="@+id/addLongitude"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:inputType="number"
+                 />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:textSize="20sp"
+                android:textColor="#FF1164"
+                android:text="Remarks" />
+
+            <EditText
+                android:id="@+id/addRemarks"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textSize="20sp"
+                 android:textColor="#FFFFFF"
+                android:inputType="text"
+                 />
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+         
+          <Button
+                    android:id="@+id/btnPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="#4EFF3B"
+                    android:textSize="20sp" 
+                    android:background="@drawable/buttonshape" 
+                    android:text="Take Photo"
+                    android:onClick="takePhoto" />
+            </LinearLayout>
+       <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+         
+          <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="#4EFF3B"
+                    android:textSize="20sp" 
+                    android:background="@drawable/buttonshape" 
+                    android:onClick="save"
+                    android:text="Save" />
+            </LinearLayout>
+       
+</LinearLayout>
