@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle">
+        <ignore path="res/layout/activity_home.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_add_profile.xml" />
+        <ignore path="res/layout/activity_home.xml" />
+        <ignore path="res/layout/adapter_profile.xml" />
+    </issue>
+    <issue id="NestedScrolling">
+        <ignore path="res/layout/activity_home.xml" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/faravy/database/DietDataSource.java" />
+        <ignore path="src/com/faravy/fragment/DietFragment.java" />
+        <ignore path="src/com/faravy/icare/AddDietActivity.java" />
+        <ignore path="src/com/faravy/icare/AddDoctorActivity.java" />
+        <ignore path="src/com/faravy/icare/AddMedicalHistoryActivity.java" />
+        <ignore path="src/com/faravy/icare/DrawerActivity.java" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res/layout/activity_home.xml" />
+    </issue>
+    <issue id="SimpleDateFormat" severity="ignore" />
+    <issue id="TextViewEdits">
+        <ignore path="res/layout/adapter_profile.xml" />
+    </issue>
+</lint>

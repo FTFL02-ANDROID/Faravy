@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iCare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Doctors</item>
+        <item>Diet Chart</item>
+        <item>Vaccine</item>
+        <item>Health Center</item>
+        <item>Medical History</item>
+        <item>General Info</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_add_profile"> Add Profile</string>
+    <string name="title_activity_view_profile"> View Profile</string>
+    <string name="title_activity_add_doctor"> Add Doctor</string>
+    <string name="title_activity_view_doctor">  Doctor Details</string>
+    <string name="title_activity_add_vaccin">Add Vaccine</string>
+    <string name="title_activity_view_vaccin">View Vaccine</string>
+    <string name="title_activity_emergency_no"> Emergency Number</string>
+    <string name="title_activity_emergency_call"> Emergency Call</string>
+    <string name="title_activity_add_diet"> Add Diet</string>
+    <string name="title_activity_add_health_center">Add Health Center</string>
+    <string name="title_activity_list_doctor">Add Health Center</string>
+    <string name="title_activity_view_history">Medical History</string>
+    <string name="title_activity_google_map">Google Map</string>
+
+</resources>
